@@ -1,40 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Roboto:wght@300;400&display=swap');
-
-*{
-   box-sizing: border-box;
-   list-style: none;
-   text-decoration: none;
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-body{
-  background-color: gainsboro;
-  font-family: 'Roboto', sans-serif;
-  margin: auto;
+body {
+    background-color: gainsboro;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    word-wrap: break-word
 }
 
-.header{
+.header {
+    display: block;
+    margin: auto;
     width: 30%;
     border: 2px solid;
     text-align: center;
     padding-right: 4px;
-    margin-left: 464px;
+    /* margin-left: 464px; */
 }
 
-.box{
-  background-color: white;
-  margin: 10px auto;
-  border: 1px solid black ;
-  text-align: center;
-  width: 25%;
-  padding: 16px;
-  
+.box {
+    background-color: white;
+    margin: 10px auto;
+    border: 1px solid black;
+    text-align: center;
+    width: 25%;
+    padding: 16px;
+}
+
+@media (max-width: 901px) {
+    .header {
+        display: block;
+        margin: auto;
+        width: 50%;
+        border: 2px solid;
+        text-align: center;
+        padding-right: 4px;
+        /* margin-left: 464px; */
+    }
+    .box {
+        background-color: white;
+        margin: 10px auto;
+        border: 1px solid black;
+        text-align: center;
+        width: 45%;
+        padding: 16px;
+    }
 }
 
 a {
-  color: inherit;
+    color: inherit;
 }
 
-.button{
-  padding: 4px 7px;
-  border: 1px solid;
+.button {
+    padding: 4px 7px;
+    border: 1px solid;
 }
